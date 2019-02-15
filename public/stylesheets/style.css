@@ -1,0 +1,50 @@
+body{
+  font-weight: bold;
+}
+.inputField{
+  margin-top:10px;
+  text-align: center;
+}
+.inputButton{
+  text-align: center;
+  margin-top:10px;
+}
+.inputButton button{
+  width:100px;
+  height:30px;
+}
+.user_button{
+  margin-left: 10px;
+}
+.mainButton{
+  width:100px;
+  height:50px;
+  margin-left: 5px;
+}
+.isOpen{
+  left: calc(50% - 250px);
+}
+.isClosed{
+  left: -700px;
+}
+#main{
+  height: 70px;
+  width: 350px;
+  position: absolute;
+  top: calc(50% - 250px);
+  transition: 1s;
+}
+#createUserWindow{
+  height:500px;
+  width:500px;
+  position: absolute;
+  top: calc(50% - 250px);
+  overflow:hidden;
+  transition: 1s;
+}
+#usersView{
+  width:100%;
+  height:auto;
+  color:red;
+  margin-top:50px;
+}
