@@ -1,41 +1,16 @@
 <!DOCTYPE html>
-<html lang="en"ng-app="app">
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <link rel="stylesheet" href="stylesheets/style.css">
 </head>
-<body ng-controller="ctrl">
-  <form id="createUserWindow" class="isClosed isOpen" method="post" action="/">
-        <div class="inputField">
-          <div>Name</div>
-          <input type="text" name="name" ng-model="name">
-        </div>
-        <div class="inputField">
-          <div>Surname</div>
-          <input type="text" name="surname" ng-model="surname">
-        </div>
-        <div class="inputField">
-          <div>Date of birth</div>
-          <input type="date" name="dateOfBirth" ng-model="dateOfBirth">
-        </div>
-        <div class="inputField">
-          <div>Phone number</div>
-          <input type="number" name="phoneNumber" ng-model="phoneNumber">
-        </div>
-        <div class="inputField">
-          <div>email</div>
-          <input type="email" name="email" ng-model="email">
-        </div>
-        <div class="inputButton"><button type="submit" ng-click="mainButtonCreate()">submit</button></div>
-        </div>
-    </form>
+<body>
     <div id="main" class="isOpen">
-      <a href="/create"><button class="mainButton" type="button" ng-click="mainButtonCreate()">Create User</button></a>
-      <button class="mainButton" type="button" ng-click="mainButtonCreate()">Changed User</button>
-      <a href="/delete"><button class="mainButton" type="button" ng-click="mainButtonCreate()">Delete User</button></a>
+      <a href="/create"><button class="mainButton" type="button">Create User</button></a>
+      <button class="mainButton" type="button">Changed User</button>
+      <a href="/delete"><button class="mainButton" type="button">Delete User</button></a>
     </div>
 
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.5/angular.min.js"></script>
-  <script src="javascripts/main.js"></script>
 </body>
 </html>

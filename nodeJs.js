@@ -45,7 +45,6 @@ app.get('/delete', function(req,res) {
   };
 
   readData();
-
 })
 
 app.post('/delete' , urlencodedParser, function(req, res) {
