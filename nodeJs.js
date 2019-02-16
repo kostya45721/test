@@ -70,6 +70,7 @@ app.post('/delete' , urlencodedParser, function(req, res) {
     };
 
     readData();
+    res.send("Пользователь успешно удален! <br> <a href='/'><button type='button'> Home </button></a>");
   }
 });
 
@@ -96,6 +97,7 @@ app.post('/create' , urlencodedParser, function(req, res) {
     };
 
     readData();
+    res.send("Пользователь успешно создан! <br> <a href='/'><button type='button'> Home </button></a>");
   }
 });
 
